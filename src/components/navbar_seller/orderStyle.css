@@ -1,0 +1,37 @@
+/* OrderHistoryPage.css */
+.order-history-container {
+    padding: 20px;
+  }
+  
+  .order-history-title {
+    text-align: center;
+  }
+  
+  .order-item {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .order-details {
+    margin-bottom: 20px;
+  }
+  
+  .order-items table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-items th, .order-items td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .total-price {
+    text-align: right;
+    margin-top: 20px; /* Add margin to separate from the order items */
+    margin-right: 170px;
+  }
+  

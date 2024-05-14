@@ -1,0 +1,24 @@
+:root{
+    --col1:#7ed957;
+    --col2:gray;
+    --col3:#cecece;
+}
+*{
+    font-family: "Poppins",sans-serif;
+    font-weight: 400px;
+  
+}
+
+
+
+.app-container {
+    position: relative; 
+  }
+  .slider-container {
+    position: relative; 
+    z-index: 1; 
+  }
+  .blur-background {
+    position: absolute; 
+    z-index: 2;
+  }

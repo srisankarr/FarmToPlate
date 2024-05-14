@@ -1,0 +1,84 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .btn-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-submit:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+   
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3;
+  }
+  
+  .icon-link {
+    margin-right: 10px; /* Adjust the spacing between icons */
+
+  }
+  
+  .icon-link  svg {
+    width: 24px; /* Adjust the width and height as needed */
+   height: 24px;
+   size: 10px;
+  }
+  .icon-container{
+    display:flex;
+ gap: 20px;
+  }

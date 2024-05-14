@@ -1,0 +1,66 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-cardd {
+  width: 18%; /* Adjust the initial width as needed for larger screens */
+  margin-bottom: 20px;
+}
+
+.product-list {
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.error-message {
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcccc;
+  color: #ff0000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width: 1200px) {
+  .product-cardd {
+    width: 20%; /* Adjust the width for medium-sized screens */
+    min-width: 22%;
+  }
+}
+
+@media (max-width: 992px) {
+  .product-cardd {
+    width: 26%; /* 4 cards per row */
+    min-width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-cardd {
+    width: 40%; /* Adjust the width for smaller screens */
+    min-width: 35%;
+margin-left: 5%;
+margin-right: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-cardd {
+    width: 100%; /* 2 cards per row */
+
+  }
+}
+
+@media (max-width: 400px) {
+  .product-cardd {
+    width: 100%; /* 1 card per row */
+}
+}

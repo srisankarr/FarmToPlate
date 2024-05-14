@@ -1,0 +1,33 @@
+* styles.css */
+body{
+   height:  100vh;
+}
+.landingpage {
+height: 100vh;
+color: white;
+background-color: rgb(197, 52, 52);
+text-align: center;
+}
+.landingpage  h1{
+padding: 30px;
+}
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  text-align: center;
+  height: 80vh;
+  background-color: rgb(197, 52, 52);
+}
+
+.option {
+  margin: 0 10px; /* Adjust margin as needed */
+}
+
+.option img {
+    width: 300px;
+  border-radius: 50%; /* Makes the image round */
+}
+.option p{
+    font-size: 20px;
+}

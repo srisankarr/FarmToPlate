@@ -1,0 +1,102 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cartt {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+  margin-left: 0;
+}
+
+.product-cardss {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 20px;
+}
+
+.delivery-btn{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.delivery {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.delivery-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.delivery-form h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.delivery-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  
+  cursor: pointer;
+}
+
+.payment-options {
+  margin-top: 20px;
+}
+
+.payment-options label {
+  display: block;
+}
+
+
+.payment-options input[type="radio"] {
+  margin-left: 5px;
+}
+
+.payment-options button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.payment-options button:hover {
+  background-color: #0056b3;
+}
+
+.errorr-message {
+color: red;
+}
+.payment-method{
+  display: flex;
+}
+.payment-method >div{
+  margin-right: 20px;
+
+}

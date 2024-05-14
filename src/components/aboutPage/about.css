@@ -1,0 +1,49 @@
+/* Container style */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+  }
+  
+  /* Heading style */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph style */
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Button style */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .adimg img{
+    width: 350px;
+  
+  }
+  .adimg{
+ 
+    padding: 20px;
+    background-color: rgb(44, 45, 46);
+    width:30%;
+    margin-left:30%;
+    
+  }
